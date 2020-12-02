@@ -1,5 +1,12 @@
 import 'package:flutter/material.dart';
 
+class HomeProfile extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return homeProfile(context);
+  }
+}
+
 Widget homeProfile(BuildContext context) {
   return Expanded(
     child: Column(
