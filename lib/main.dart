@@ -1,10 +1,10 @@
-import 'package:drone_profiling/signin.dart';
+import 'package:drone_profiling/ui/screens/root.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'auth_service.dart';
-import 'homepage.dart';
+import 'models/auth/auth_service.dart';
+import 'models/auth/signin.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -43,7 +43,7 @@ class AuthenticationWrapper extends StatelessWidget {
     final firebaseUser = context.watch<User>();
 
     if (firebaseUser != null) {
-      return HomePage();
+      return DetailsScreen();
     }
     return SignInPage();
   }

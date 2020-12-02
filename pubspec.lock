@@ -184,6 +184,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.5"
+  shrink_sidemenu:
+    dependency: "direct main"
+    description:
+      name: shrink_sidemenu
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.0+3"
   sky_engine:
     dependency: transitive
     description: flutter

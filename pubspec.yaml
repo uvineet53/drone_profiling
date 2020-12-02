@@ -27,6 +27,7 @@ dependencies:
   firebase_auth: ^0.18.3+1
   firebase_core: ^0.5.2+1
   provider: ^4.3.2+2
+  shrink_sidemenu: ^1.0.0+3
 dev_dependencies:
   flutter_test:
     sdk: flutter
